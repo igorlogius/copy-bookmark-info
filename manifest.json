@@ -1,0 +1,23 @@
+{
+  "author": "igorlogius",
+"background": {
+	"scripts": ["background.js"]
+  },
+  "browser_action": {
+	  "default_title": "select custom format for bookmark copy",
+	  "default_popup": "options.html"
+  },
+  "description": "",
+  "icons": {
+  },
+  "manifest_version": 2,
+  "name": "copytabinfo",
+  "permissions": [
+    "clipboardWrite",
+    "notifications",
+    "storage",
+    "bookmarks",
+    "menus"
+  ],
+  "version": "1.0.0"
+}
